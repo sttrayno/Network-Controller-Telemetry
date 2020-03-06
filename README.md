@@ -1,6 +1,4 @@
-# Network-Controller-Telemetry
-
-Lab guide for building Grafana dashboards against Cisco network controllers
+# Network Controller Telemetry (ACI / DNA-Centre / vManage)
 
 As we've convered in previous labs, TIG stack . Previously we've managed to abstract away some of the details however this lab we need to go a little deeper to start to build more custom integrations for collecting data. Before we do that let me give a bit of commentary on the individual components so you can understand where they all fit together.
 
