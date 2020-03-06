@@ -1,5 +1,7 @@
 # Network Controller Telemetry (ACI / DNA-Centre / vManage)
 
+In previous labs we've configured there's a plethora of data we can get from network devices with techniques such as Model Driven Telemetry or SNMP, with the rise in network controllers however there's a different level of data we can get such as network health, client health and application peformance scores. The challenge normally comes that how can we build an easy way to aggregate this data from multiple different system sources.
+
 As we've convered in previous labs, we're going to use the TIG (Telegraf/Influx/Grafana) stack. Previously we've managed to abstract away some of the details however this lab we need to go a little deeper to start to build more custom integrations for collecting data. Before we do that let me give a bit of commentary on the individual components so you can understand where they all fit together.
 
 ## TIG stack in detail
